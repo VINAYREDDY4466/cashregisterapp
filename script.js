@@ -107,7 +107,7 @@ const updateUI = change => {
   }
 
   cash.value = '';
-  priceScreen.textContent = `Total: $${price}`;
+  priceScreen.textContent = `Chicken Biryani: $${price}`;
   cashDrawerDisplay.innerHTML = `<p><strong>Change in drawer:</strong></p>
     ${cid
       .map(money => `<p>${currencyNameMap[money[0]]}: $${money[1]}</p>`)
